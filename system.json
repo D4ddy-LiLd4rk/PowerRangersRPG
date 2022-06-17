@@ -1,10 +1,10 @@
 {
-    "name": "PowerRangersRPG",
+    "name": "powerrangersrpg",
     "title": "Power Rangers RPG",
     "description": "Many details here.",
     "version": "0.0.1",
-    "templateVersion": 1,
     "author": "D4ddy-LiLd4rk",
+    "minimumCoreVersion": 9,
     "scripts": [ ],
     "esmodules": [ ],
     "styles": [ ],

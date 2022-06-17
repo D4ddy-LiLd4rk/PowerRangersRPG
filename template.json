@@ -1,0 +1,103 @@
+{
+    "Actor": {
+        "types": [
+            "pc",
+            "npc",
+            "creature",
+            "zord",
+            "megazord"
+        ],
+        "templates": {
+            "background": {
+                "description": "",
+                "pronouns": ""
+            },
+            "resources": {
+                "health": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "attributes": {
+                "essenceScores": {
+                    "strength": 0,
+                    "speed": 0,
+                    "smarts": 0,
+                    "social": 0
+                },
+                "defenses": {
+                    "toughness": 0,
+                    "evasion": 0,
+                    "willpower": 0,
+                    "cleverness": 0
+                },
+                "groundMovement": 0
+            },
+            "features": {
+                "skills": [],
+                "perks": [],
+                "attacks": [],
+                "powers": []
+            }
+        },
+        "pc": {
+            "templates": [
+                "backgrounds",
+                "resources",
+                "attributes",
+                "features"
+            ],
+            "name": "",
+            "origin": "",
+            "role": "",
+            "level": 1,
+            "influences": [],
+            "hangups": [],
+            "backgroundBonds": [],
+            "languages": [],
+            "weapons": [],
+            "armor": []
+        },
+        "npc": {},
+        "creature": {
+            "templates": [
+                "resources",
+                "attributes",
+                "features"
+            ],
+            "name": "",
+            "threatLevel": 0,
+            "size": ""
+        },
+        "zord": {
+            "templates": [
+                "resources",
+                "attributes"
+            ],
+            "name": "",
+            "size": "",
+            "features": []
+        },
+        "megazord": {}
+    },
+    "Item": {
+        "types": [
+            "origin",
+            "role",
+            "influence",
+            "hangup",
+            "skill",
+            "attack",
+            "power",
+            "perk",
+            "backgroundbond",
+            "powermorphers",
+            "weapons",
+            "powersuits",
+            "gear",
+            "kits",
+            "vehicles"
+        ]
+    }
+}
