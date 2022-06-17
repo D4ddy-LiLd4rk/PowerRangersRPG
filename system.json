@@ -1,0 +1,33 @@
+{
+    "name": "PowerRangersRPG",
+    "title": "Power Rangers RPG",
+    "description": "Many details here.",
+    "version": "0.0.1",
+    "templateVersion": 1,
+    "author": "D4ddy-LiLd4rk",
+    "scripts": [ ],
+    "esmodules": [ ],
+    "styles": [ ],
+    "packs": [ ],
+    "languages": [
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "socket": false,
+    "initiative": "1d20",
+    "gridDistance": 10,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://your/hosted/system/repo/",
+    "manifest": "https://your/hosted/system/repo/system.json",
+    "download": "https://your/packaged/download/archive.zip"
+}
